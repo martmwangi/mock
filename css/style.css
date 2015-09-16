@@ -1,4 +1,8 @@
 /*Navigation Menu*/
+.title{
+font-size: 21px;
+padding-top: 2%;
+}
 nav{
 position: fixed;
 height: 60px;
@@ -24,13 +28,23 @@ height:60px;
 
 }
 /*Second row*/
-#banner{
+#container1{
 display: block;
+min-width: 100%;
+background-image: url(/images/banner.jpg);
+background-size: cover;
+height: 500px;
 }
-.jumbotron{
+/*#banner{
+display: block;
+}*/
+/*.jumbotron{
 display: block;
 min-width: 100%;
 background-size: cover;
 margin: 0%;
 padding: 0%;
+}*/
+.inside{
+padding-top: 10px;
 }

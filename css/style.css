@@ -1,3 +1,4 @@
+/*Navigation Menu*/
 nav{
 position: fixed;
 }
@@ -9,4 +10,12 @@ nav ul li{
 display: inline;
 padding: 18px;
 font-size: 16px;
+}
+/*Second row*/
+.jumbotron{
+margin: 0%;
+background-image: url("/images/banner.jpg");
+background-size: cover;
+min-width: 100%;
+height: auto;
 }

@@ -46,6 +46,9 @@ color: white;
 .white{
 color:white;
 }
+.dull{
+margin-left: 0px;
+}
 #inside ul li{
 list-style: none;
 display: inline;

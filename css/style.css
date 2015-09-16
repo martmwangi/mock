@@ -49,7 +49,7 @@ color:white;
 #inside ul li{
 list-style: none;
 display: inline;
-/*padding: 40px;*/
+margin-left: 25px;
 font-size: 30px;
 }
 #inside ul li a{
@@ -61,8 +61,22 @@ margin: 20px;
 text-decoration: none;
 border-radius: 10px;
 margin-left: 10px;
+padding: 10px;
+
+    filter: brightness(60%);
+-webkit-filter: brightness(60%);
+-moz-filter: brightness(130%);
+-o-filter: brightness(130%);
+-ms-filter: brightness(130%);
+}
+.blue{
+background-color:deepskyblue;
 }
 
-#inside ul li a.hover{
-
+#inside ul li a:hover{
+filter: brightness(110%);
+-webkit-filter: brightness(110%);
+-moz-filter: brightness(130%);
+-o-filter: brightness(130%);
+-ms-filter: brightness(130%);
 }

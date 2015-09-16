@@ -1,7 +1,12 @@
 nav{
-
+position: fixed;
 }
 nav ul{
 list-style: none;
+
+}
+nav ul li{
 display: inline;
+padding: 18px;
+font-size: 16px;
 }

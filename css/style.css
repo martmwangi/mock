@@ -1,21 +1,35 @@
 /*Navigation Menu*/
 nav{
 position: fixed;
+height: 60px;
+padding-top: 15px;
+border-bottom: 1px solid black;
 }
 nav ul{
 list-style: none;
-
 }
 nav ul li{
 display: inline;
 padding: 18px;
+padding-right: 25px;
 font-size: 16px;
 }
+nav ul li a{
+color: gray;
+}
+header{
+display: block;
+height:inherit;
+border: 1px solid black;
+
+}
 /*Second row*/
+
 .jumbotron{
 margin: 0%;
 background-image: url("/images/banner.jpg");
 background-size: cover;
 min-width: 100%;
 height: auto;
+
 }

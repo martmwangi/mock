@@ -19,17 +19,11 @@ color: gray;
 }
 header{
 display: block;
-height:inherit;
+height:60px;
 border: 1px solid black;
 
 }
 /*Second row*/
-
-.jumbotron{
-margin: 0%;
-background-image: url("/images/banner.jpg");
-background-size: cover;
-min-width: 100%;
-height: auto;
-
+#wrap1{
+height: 250px;
 }

@@ -7,6 +7,7 @@ nav{
 position: fixed;
 height: 60px;
 padding-top: 15px;
+
 /*border-bottom: 1px solid black;*/
 }
 nav ul{
@@ -24,6 +25,7 @@ color: gray;
 header{
 display: block;
 height:60px;
+background-color: white;
 /*border: 1px solid black;*/
 
 }
@@ -83,3 +85,19 @@ filter: brightness(110%);
 -o-filter: brightness(130%);
 -ms-filter: brightness(130%);
 }
+/*Styling for container2*/
+box{
+   margin-left: 100px;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+#middle{
+    padding-top: 120px;
+
+
+}
+
+
+

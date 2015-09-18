@@ -166,11 +166,13 @@ Styling container 4*/
     padding-bottom: 10%;
 
 }
-.span{
+.sp{
     color: rgb(130,130,130);
+    font-size: 20px;
 }
 #cent{
     text-align: center;
+    padding-top: 90px;
 }
 img{
     margin: 10%;

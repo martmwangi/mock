@@ -159,12 +159,15 @@ filter: brightness(110%);
 Styling container 4*/
 #container3{
     margin: 5px;
-    background-color: black;
+    background-color: rgb(34,34,34);
     color: white;
     padding-top: 20px;
     margin-top: 20%;
     padding-bottom: 10%;
 
+}
+.span{
+    color: rgb(130,130,130);
 }
 #cent{
     text-align: center;
@@ -177,7 +180,6 @@ img{
 .paragraph{
     display: block;
     width: 80%;
-
     margin-left: 10%;
 
 }

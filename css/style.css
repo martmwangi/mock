@@ -99,16 +99,17 @@ background-color:deepskyblue;
 filter: brightness(110%);
 -webkit-filter: brightness(110%);
 -moz-filter: brightness(130%);
--o-filter: brightness(130%);
+-;o-filter: brightness(130%);
 -ms-filter: brightness(130%);
 }
 /*Styling for container2*/
 .box{
     border: 2px solid lightblue;
     margin: 15px;
-    width: 300px;
+    width: 350px;
     margin-left: 10px;
     padding-left: 40px;
+    height: 350px;
 }
 
 
@@ -117,6 +118,49 @@ filter: brightness(110%);
 
 
 }
+
+/*Styling the circles*/
+.ocircle{
+    height: 150px;
+    width: 150px;
+    border: 1px solid green;
+    border-radius: 100%;
+    position: absolute;
+    padding-top: 5px;
+    margin-top: 25px;
+
+}
+.icircle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid blue;
+    position: relative;
+}
+.pbottom{
+    padding-top: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

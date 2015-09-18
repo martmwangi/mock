@@ -2,17 +2,24 @@
 .title{
 font-size: 21px;
 padding-top: 2%;
+background-color: white;
 }
 nav{
 position: fixed;
-height: 60px;
+height: 80px;
+width: 100%;
 padding-top: 15px;
 overflow: hidden;
+background-color: white;
+margin: 0;
+z-index: 1;
 /*border-bottom: 1px solid black;*/
 }
 .whitebar{
     background-color: white;
     overflow: hidden;
+    width: 100%;
+
 }
 nav ul{
 list-style: none;
@@ -22,9 +29,11 @@ display: inline;
 padding: 18px;
 padding-right: 25px;
 font-size: 16px;
+
 }
 nav ul li a{
 color: gray;
+
 }
 header{
 display: block;
@@ -60,6 +69,9 @@ list-style: none;
 display: inline;
 margin-left: 25px;
 font-size: 30px;
+position: relative;
+
+
 }
 #inside ul li a{
 display: inline-block;
@@ -71,6 +83,7 @@ text-decoration: none;
 border-radius: 10px;
 margin-left: 10px;
 padding: 10px;
+
 
     filter: brightness(60%);
 -webkit-filter: brightness(60%);
@@ -91,9 +104,9 @@ filter: brightness(110%);
 }
 /*Styling for container2*/
 .box{
-    border: 2px solid black;
+    border: 2px solid lightblue;
     margin: 15px;
-    width: 350px;
+    width: 300px;
     margin-left: 10px;
     padding-left: 40px;
 }

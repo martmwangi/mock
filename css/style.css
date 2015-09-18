@@ -151,8 +151,18 @@ filter: brightness(110%);
     margin-top: 40px;
     background-color: white;
 }
+/*
+Styling container 4*/
+#container3{
+    margin: 5px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
 
-
+}
+.cent{
+    align-items: center;
+}
 
 
 

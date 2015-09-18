@@ -109,7 +109,7 @@ filter: brightness(110%);
     width: 350px;
     margin-left: 10px;
     padding-left: 40px;
-    height: 350px;
+    height: 400px;
 }
 
 
@@ -123,25 +123,34 @@ filter: brightness(110%);
 .ocircle{
     height: 150px;
     width: 150px;
-    border: 1px solid green;
+    border: 1px solid grey;
     border-radius: 100%;
     position: absolute;
     padding-top: 5px;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-left: 45px;
 
 }
 .icircle{
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    border: 1px solid blue;
+    border: 1px solid;
     position: relative;
+    margin-top: 21px;
+    margin-left: 25px;
+    background-color: rgb(8,106,151);
 }
 .pbottom{
-    padding-top: 70px;
-
+    margin-bottom: 0;
+    padding-top: 250px;
+    font-style: normal;
 }
-
+.fa{
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: white;
+}
 
 
 

@@ -7,8 +7,12 @@ nav{
 position: fixed;
 height: 60px;
 padding-top: 15px;
-
+overflow: hidden;
 /*border-bottom: 1px solid black;*/
+}
+.whitebar{
+    background-color: white;
+    overflow: hidden;
 }
 nav ul{
 list-style: none;
@@ -86,12 +90,14 @@ filter: brightness(110%);
 -ms-filter: brightness(130%);
 }
 /*Styling for container2*/
-box{
-   margin-left: 100px;
-    padding: 20px;
-    border: 1px solid black;
-
+.box{
+    border: 2px solid black;
+    margin: 15px;
+    width: 350px;
+    margin-left: 10px;
+    padding-left: 40px;
 }
+
 
 #middle{
     padding-top: 120px;

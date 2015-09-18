@@ -1,3 +1,7 @@
+#container{
+    width: 100%;
+}
+
 /*Navigation Menu*/
 .title{
 font-size: 21px;
@@ -158,13 +162,25 @@ Styling container 4*/
     background-color: black;
     color: white;
     padding-top: 20px;
+    margin-top: 20%;
+    padding-bottom: 10%;
 
 }
-.cent{
-    align-items: center;
+#cent{
+    text-align: center;
 }
+img{
+    margin: 10%;
+    width: 80%;
+    border-radius: 5px;
+}
+.paragraph{
+    display: block;
+    width: 80%;
 
+    margin-left: 10%;
 
+}
 
 
 
